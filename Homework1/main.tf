@@ -1,8 +1,5 @@
 provider "aws" {
   region      = "us-east-1"
-#  profile     = "admin"
-#  access_key = "AKIA425UHRIA75W6BTDP"
-#  secret_key = "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"
   shared_credentials_files = ["/Users/test/.aws/credentials"]
   profile                 = "yair-admin"
 }
